@@ -240,7 +240,9 @@ async function main() {
   } catch (e) {
     if (e.code !== 'ENOENT') throw e;
   }
-  const endDay = history ? day(history.updatedAt) : day(Date.now());
+  // Charts end on the last complete day: the run happens early UTC, so the
+  // collection day's bucket is only a few hours old and would read as a drop.
+  const endDay = addDays(history ? day(history.updatedAt) : day(Date.now()), -1);
   const rows = repoRows(history);
 
   await mkdir(CHART_DIR, { recursive: true });
