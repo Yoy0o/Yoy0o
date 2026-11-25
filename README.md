@@ -70,6 +70,18 @@
 
 ---
 
+<!-- STATS:START -->
+
+## 📈 个人仓库数据
+
+![个人仓库每日浏览与克隆](stats/charts/overview.svg)
+
+> 等待首次采集。配置好 `STATS_TOKEN` 后，数据会每天自动更新到这里。
+
+<!-- STATS:END -->
+
+---
+
 ## 🧰 技术栈
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)

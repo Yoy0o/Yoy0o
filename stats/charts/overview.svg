@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 80" width="820" height="80" role="img" aria-label="等待首次采集"><style>
+  .t{fill:#1f2328;font:600 13px -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC","PingFang SC",sans-serif}
+  .s{fill:#59636e;font:11px -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC","PingFang SC",sans-serif}
+  .g{stroke:#d1d9e0;stroke-width:1}
+  .v{stroke:#257de0}.vf{fill:#257de0}.c{stroke:#f47230}.cf{fill:#f47230}
+  .ring{stroke:#ffffff}
+  @media (prefers-color-scheme: dark){
+    .t{fill:#f0f6fc}.s{fill:#9198a1}.g{stroke:#3d444d}
+    .v{stroke:#338ced}.vf{fill:#338ced}.c{stroke:#e76624}.cf{fill:#e76624}
+    .ring{stroke:#0d1117}
+  }
+</style>
+<text class="t" x="0" y="22">个人仓库每日浏览与克隆</text>
+<text class="s" x="0" y="48">等待首次采集：配置 STATS_TOKEN 后运行 Repo stats 工作流</text></svg>
