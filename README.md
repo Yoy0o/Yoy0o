@@ -76,7 +76,15 @@
 
 ![个人仓库每日浏览与克隆](stats/charts/overview.svg)
 
-> 等待首次采集。配置好 `STATS_TOKEN` 后，数据会每天自动更新到这里。
+| 仓库 | ★ | ⑂ | 近 14 天浏览 | 近 14 天克隆 | 累计浏览 | 下载 | 近 30 天浏览 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| [TerraView](https://github.com/Yoy0o/TerraView) | 0 | 0 | 36 / 1 | 44 / 3 | 36 | 1 | <img src="stats/charts/repo-TerraView.svg" width="120" height="28" alt="TerraView 近 30 天浏览趋势"> |
+| [hydrosim-web](https://github.com/Yoy0o/hydrosim-web) | 0 | 0 | 32 / 9 | 70 / 38 | 32 | 0 | <img src="stats/charts/repo-hydrosim-web.svg" width="120" height="28" alt="hydrosim-web 近 30 天浏览趋势"> |
+| [Baton](https://github.com/Yoy0o/Baton) | 0 | 0 | 20 / 1 | 70 / 31 | 20 | 0 | <img src="stats/charts/repo-Baton.svg" width="120" height="28" alt="Baton 近 30 天浏览趋势"> |
+| [geoverse-agent-hub](https://github.com/Yoy0o/geoverse-agent-hub) | 0 | 0 | 3 / 1 | 21 / 18 | 3 | 0 | <img src="stats/charts/repo-geoverse-agent-hub.svg" width="120" height="28" alt="geoverse-agent-hub 近 30 天浏览趋势"> |
+| [webProj](https://github.com/Yoy0o/webProj) | 0 | 0 | 1 / 1 | 3 / 2 | 1 | 0 | <img src="stats/charts/repo-webProj.svg" width="120" height="28" alt="webProj 近 30 天浏览趋势"> |
+
+<sub>浏览 / 克隆为「次数 / 独立访客」；累计浏览自 2026-11-10 开始采集；下载为 Release 附件与 npm 下载合计。每日由 GitHub Actions 自动更新 · 最近更新 2026-11-25</sub>
 
 <!-- STATS:END -->
 
