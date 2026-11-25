@@ -53,6 +53,8 @@
 
 | 仓库 | 简介 |
 | --- | --- |
+| [TerraView](https://github.com/Yoy0o/TerraView) | 基于 three.js 的 WebGPU 优先三维地球 SDK：从全球视角无缝进入建筑、楼层、房间，支持全球地形、物理大气、3D Tiles、高斯泼溅与室内 / BIM 浏览；npm 包 `terra-viewer` |
+| [hydrosim-web](https://github.com/Yoy0o/hydrosim-web) | 浏览器端二维浅水水动力模拟器：WebGPU 计算着色器求解，Three.js 三维呈现洪水，接入全球 DEM、OSM、ERA5 降雨等开放数据，免安装、无需服务器 |
 | [Baton](https://github.com/Yoy0o/Baton) | 多系统编排台：一个通用 Agent 通过能力网关调度多个 GIS 类 Web 系统。后端零改动接入，写操作先预览再确认，全程留审计 |
 | [geoverse-agent-hub](https://github.com/Yoy0o/geoverse-agent-hub) | 自托管的 Agent 工作台，让各家 coding agent 自动上报任务状态、交付回执和成本；可以单容器部署，也可以部署到 Cloudflare |
 | [webProj](https://github.com/Yoy0o/webProj) | 早期作品：在 OpenLayers 中扩展定义常见网络地图投影 |
@@ -103,6 +105,7 @@
 ![MapLibre](https://img.shields.io/badge/MapLibre%20GL-396CB2?style=flat-square&logo=maplibre&logoColor=white)
 ![Cesium](https://img.shields.io/badge/Cesium-6CADDF?style=flat-square&logo=cesium&logoColor=white)
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
+![WebGPU](https://img.shields.io/badge/WebGPU-005A9C?style=flat-square&logo=webgpu&logoColor=white)
 ![PostGIS](https://img.shields.io/badge/PostGIS-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![GeoJSON](https://img.shields.io/badge/GeoJSON-2E7D32?style=flat-square)
 

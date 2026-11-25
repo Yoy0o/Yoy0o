@@ -20,7 +20,7 @@ export const WINDOW_DAYS = 14;
 const MAX_LIST_PAGES = 10; // stargazers / forks / releases: up to 1000 each
 // npm packages published from each repo; downloads are public (no token).
 export const NPM_PACKAGES = {
-  // 'repo-name': ['package-name'],
+  TerraView: ['terra-viewer'],
 };
 const NPM_MAX_DAYS = 540; // api.npmjs.org range limit is 18 months
 
@@ -205,7 +205,14 @@ async function main() {
   const today = day(Date.now());
   const npm = [];
   for (const [repo, pkgs] of Object.entries(NPM_PACKAGES)) {
-    for (const p of pkgs) npm.push(await fetchNpm(p, repo, today));
+    for (const p of pkgs) {
+      // npm is optional: a registry hiccup or unpublished name must not cost the day's traffic.
+      try {
+        npm.push(await fetchNpm(p, repo, today));
+      } catch (e) {
+        console.log(`::warning::npm ${p} skipped: ${e.message}`);
+      }
+    }
   }
 
   let prev = null;
