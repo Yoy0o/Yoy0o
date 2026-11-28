@@ -80,13 +80,13 @@
 
 | 仓库 | ★ | ⑂ | 近 14 天浏览 | 近 14 天克隆 | 累计浏览 | 下载 | 近 30 天浏览 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| [TerraView](https://github.com/Yoy0o/TerraView) | 1 | 1 | 89 / 3 | 152 / 52 | 100 | 303 | <img src="stats/charts/repo-TerraView.svg" width="120" height="28" alt="TerraView 近 30 天浏览趋势"> |
-| [hydrosim-web](https://github.com/Yoy0o/hydrosim-web) | 0 | 0 | 87 / 19 | 114 / 58 | 87 | 0 | <img src="stats/charts/repo-hydrosim-web.svg" width="120" height="28" alt="hydrosim-web 近 30 天浏览趋势"> |
-| [Baton](https://github.com/Yoy0o/Baton) | 0 | 0 | 10 / 1 | 47 / 22 | 20 | 0 | <img src="stats/charts/repo-Baton.svg" width="120" height="28" alt="Baton 近 30 天浏览趋势"> |
+| [hydrosim-web](https://github.com/Yoy0o/hydrosim-web) | 1 | 0 | 89 / 19 | 118 / 61 | 89 | 0 | <img src="stats/charts/repo-hydrosim-web.svg" width="120" height="28" alt="hydrosim-web 近 30 天浏览趋势"> |
+| [TerraView](https://github.com/Yoy0o/TerraView) | 1 | 1 | 86 / 6 | 172 / 56 | 113 | 311 | <img src="stats/charts/repo-TerraView.svg" width="120" height="28" alt="TerraView 近 30 天浏览趋势"> |
+| [Baton](https://github.com/Yoy0o/Baton) | 0 | 0 | 7 / 1 | 14 / 11 | 20 | 0 | <img src="stats/charts/repo-Baton.svg" width="120" height="28" alt="Baton 近 30 天浏览趋势"> |
 | [webProj](https://github.com/Yoy0o/webProj) | 0 | 0 | 1 / 1 | 1 / 1 | 1 | 0 | <img src="stats/charts/repo-webProj.svg" width="120" height="28" alt="webProj 近 30 天浏览趋势"> |
-| [geoverse-agent-hub](https://github.com/Yoy0o/geoverse-agent-hub) | 0 | 0 | 0 / 0 | 21 / 18 | 3 | 0 | <img src="stats/charts/repo-geoverse-agent-hub.svg" width="120" height="28" alt="geoverse-agent-hub 近 30 天浏览趋势"> |
+| [geoverse-agent-hub](https://github.com/Yoy0o/geoverse-agent-hub) | 0 | 0 | 0 / 0 | 19 / 16 | 3 | 0 | <img src="stats/charts/repo-geoverse-agent-hub.svg" width="120" height="28" alt="geoverse-agent-hub 近 30 天浏览趋势"> |
 
-<sub>浏览 / 克隆为「次数 / 独立访客」；累计浏览自 2026-11-10 开始采集；下载为 Release 附件与 npm 下载合计。每日由 GitHub Actions 自动更新 · 最近更新 2026-11-27</sub>
+<sub>浏览 / 克隆为「次数 / 独立访客」；累计浏览自 2026-11-10 开始采集；下载为 Release 附件与 npm 下载合计。每日由 GitHub Actions 自动更新 · 最近更新 2026-11-28</sub>
 
 <!-- STATS:END -->
 
